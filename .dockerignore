@@ -1,0 +1,31 @@
+# Git
+.git
+.gitignore
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# OS and editor files
+.DS_Store
+*.swp
+
+# Logs and temporary files
+*.log
+tmp/
+
+# Tests and docs (exclude if not needed in the image)
+tests/
+docs/
+
+# Optional: exclude model files if loaded externally
+# models/
